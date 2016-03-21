@@ -1,0 +1,22 @@
+import java.awt.*;
+public class Demo1 extends Frame
+{
+public Demo1()
+{
+setBackground(new Color(180,180,180));
+setLayout(new Flowlayout ());
+Label l1 = new Lable("Username");
+Label l2 = new Lable("Password");
+l1.setForeground(COlor.yellow);
+l2.setForeground(COlor.yellow);
+TextField t1=new TextField(20);
+TextField t2=new TextField(20);
+Button b1 = new Button("OK");
+Button b2 = new Button("Cancel");
+b1.setBackground(Color.green);
+b1.setBackground(Color.green);
+b1.setForeground(Color.red);
+b1.setForeground(Color.red);
+add(l1);add(t1);add(l2);add(t2);
+}
+}
